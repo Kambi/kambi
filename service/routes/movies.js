@@ -26,6 +26,7 @@ var getAllMovies = function(callback) {
 
 exports.list = function(request, response, next) {
 	getAllMovies( function(body) {
+		console.log(body);
 		response.writeHead(200, {'Content-Type': 'text/html'});
 		response.end(body);
 	});
