@@ -1,0 +1,13 @@
+<div>
+	<h1>My collection {{mymovies}}</h1>
+	<ul>
+		<table>
+		<tr ng-repeat="m in movies">
+				<td>
+				<img height=150 width=150 src={{m.image}} />
+			</td>
+			<td>{{m.name}} </td>
+		</tr>
+	</table>
+	</ul>
+</div>
