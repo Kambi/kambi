@@ -20,8 +20,7 @@ exports.start = function() {
 	// });
 	app.listen(app.get('port'), function() {
 		console.log('Express server listening on port' + app.get('port'));
-		open('http://localhost:' + app.get('port') + '/api/movie/Mannan', 'chrome')
-//		open('http://localhost:' + app.get('port') + '/#/movie', 'chrome')
+		open('http://localhost:' + app.get('port') + '/#/movie', 'chrome')
 	});
 };
 
