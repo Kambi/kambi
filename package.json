@@ -4,7 +4,8 @@
 	{
 		"express": "~3.2.0",
 		"request": "~2.30.0",
-		"open": ">= 0.0.2"
+		"open": ">= 0.0.2",
+		"linq": ">= 0.0"
 	},
 	"description": "A simple Kambi DB setup",
 	"engines":
